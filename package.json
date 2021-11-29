@@ -30,6 +30,6 @@
     "test": "mocha --check-leaks --require esm './**/*.test.js'",
     "start": "./bin/server",
     "dev": "node-dev bin/server --port 3000",
-    "serve": "sudo node -r esm ./bin/server --port 1234"
+    "serve": "sudo node -r esm ./bin/server --port 3000"
   }
 }
